@@ -1,0 +1,4 @@
+usbh_hid_keybd.c:328:20:USBH_HID_KeybdInit	24	static
+usbh_hid_keybd.c:361:25:USBH_HID_GetKeybdInfo	16	static
+usbh_hid_keybd.c:379:27:USBH_HID_KeybdDecode	24	static
+usbh_hid_keybd.c:417:9:USBH_HID_GetASCIICode	24	static
