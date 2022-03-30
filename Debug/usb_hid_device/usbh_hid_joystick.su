@@ -1,4 +1,0 @@
-usbh_hid_joystick.c:295:20:USBH_HID_JoystickInit	24	static
-usbh_hid_joystick.c:324:28:USBH_HID_GetJoystickInfo	16	static
-usbh_hid_joystick.c:372:27:USBH_HID_JoystickDecode	32	static
-usbh_hid_joystick.c:441:6:USBH_HID_EventCallback	16	static
