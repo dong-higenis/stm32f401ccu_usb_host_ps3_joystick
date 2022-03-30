@@ -192,9 +192,11 @@ static USBH_StatusTypeDef USBH_HID_InterfaceInit(USBH_HandleTypeDef *phost)
     USBH_UsrLog("none boot device found!");
 
     //check the vendor and product id
-    if(phost->device.DevDesc.idVendor == 0x2563 && phost->device.DevDesc.idProduct == 0x526 &&
-    		phost->device.CfgDesc.Itf_Desc[interface].bInterfaceClass == 0x03)
-    {
+    //if(phost->device.DevDesc.idVendor == 0x2563 && phost->device.DevDesc.idProduct == 0x526 &&
+    //		phost->device.CfgDesc.Itf_Desc[interface].bInterfaceClass == 0x03)
+		if(phost->device.DevDesc.idVendor == 0x2563 &&
+						phost->device.CfgDesc.Itf_Desc[interface].bInterfaceClass == 0x03)
+				{
       USBH_UsrLog("Joystick device found!");
     	HID_Handle->Init = USBH_HID_JoystickInit;
     }

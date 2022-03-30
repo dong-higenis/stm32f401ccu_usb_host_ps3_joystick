@@ -3,7 +3,6 @@
 STM32F401CCU에서 USB Host 기능을 이용해 USB Hid Joystick를 제어하는 프로젝트입니다.
 
 
-![](./assets/pic1.png)
 
 ### 테스트 환경
     STM32CubeIDE : 1.7.0 (Build: 10852_20210715_0634(UTC))
@@ -57,3 +56,19 @@ UART2 DATA 구조
 
 
 [유튜브 데모 영상 보기](https://www.youtube.com/watch?v=UHCHiru6jNc&t=16s)
+
+
+
+### 실제 연결된 모습
+
+![](./assets/pic0.jpg)
+
+![](./assets/pic1.png)
+
+![](./assets/pic2.jpg)
+
+![](./assets/pic3.jpg)
+
+![](./assets/pic4.jpg)
+
+![](./assets/pic5.png)
